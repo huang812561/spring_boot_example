@@ -1,0 +1,23 @@
+###
+# 主题交换机测试
+#GET http://localhost:8083/myTopic/{{routingKey}}/{{message}}/{{count}}
+GET http://localhost:8083/myTopic/A.orange.B/测试消息/2
+###
+GET http://localhost:8083/myTopic/A.B.rabbit/测试消息/2
+###
+GET http://localhost:8083/myTopic/lazy.A.B.C/测试消息/2
+
+
+###
+# 直接交换机测试
+# GET http://localhost:8083/direct/{{routingKey}}/{{message}}/{{count}}
+GET http://localhost:8083/direct/order/直接交换机测试消息/2
+###
+GET http://localhost:8083/direct/base/直接交换机测试消息/2
+###
+GET http://localhost:8083/direct/charge/直接交换机测试消息/2
+
+###
+# 扇型交换机 Fanout Exchange
+# GET http://localhost:8083/fanout/{{message}}/{{count}}
+GET http://localhost:8083/fanout/扇型交换机测试消息/1

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.luhuiguo:aspose-words:jdk17:22.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../apache/apache-maven-3.3.9/repository/com/luhuiguo/aspose-words/22.4/aspose-words-22.4-jdk17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../apache/apache-maven-3.3.9/repository/com/luhuiguo/aspose-words/22.4/aspose-words-22.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../apache/apache-maven-3.3.9/repository/com/luhuiguo/aspose-words/22.4/aspose-words-22.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

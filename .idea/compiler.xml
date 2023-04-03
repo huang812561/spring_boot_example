@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-sentinel" />
+        <module name="spring-boot-querydsl" />
+        <module name="spring-boot-druid" />
+        <module name="srping-boot-easy-excel" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-rocketmq" />
+        <module name="spring-boot-hippo4j" />
+        <module name="spring-boot-retry" />
+        <module name="spring-boot-kafka" />
+        <module name="spring-boot-es" />
+        <module name="spring-boot-mqtt" />
+        <module name="test5" />
+        <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-read-binlog" />
+        <module name="spring-boot-devtools" />
+        <module name="spring-boot-cache" />
+        <module name="spring-boot-log" />
+        <module name="spring-boot-websocket" />
+        <module name="spring-boot-poi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-test5" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-cache" options="-parameters" />
+      <module name="spring-boot-devtools" options="-parameters" />
+      <module name="spring-boot-druid" options="-parameters" />
+      <module name="spring-boot-es" options="-parameters" />
+      <module name="spring-boot-hippo4j" options="-parameters" />
+      <module name="spring-boot-kafka" options="-parameters" />
+      <module name="spring-boot-log" options="-parameters" />
+      <module name="spring-boot-mqtt" options="-parameters" />
+      <module name="spring-boot-poi" options="-parameters" />
+      <module name="spring-boot-querydsl" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-read-binlog" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
+      <module name="spring-boot-retry" options="-parameters" />
+      <module name="spring-boot-rocketmq" options="-parameters" />
+      <module name="spring-boot-sentinel" options="-parameters" />
+      <module name="spring-boot-test5" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
+      <module name="srping-boot-easy-excel" options="-parameters" />
+      <module name="test5" options="-parameters" />
+    </option>
+  </component>
+</project>

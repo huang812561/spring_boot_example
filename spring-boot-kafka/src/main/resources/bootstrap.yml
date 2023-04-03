@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: KafkaServer
+  kafka:
+    bootstrap-servers: 192.168.10.22:9092
+    producer:
+      bootstrap-servers: 192.168.10.22:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      bootstrap-servers: 192.168.10.22:9092
+      group-id: kafka-server-group
+
+
+hgq:
+  kafka:
+    topic: hgq_topic_test

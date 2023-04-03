@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-test5" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-devtools/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-log/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-es/pom.xml" />
+        <option value="$PROJECT_DIR$/srping-boot-easy-excel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-retry/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-read-binlog/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-poi/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-querydsl/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-hippo4j/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-test5/pom.xml" />
+        <option value="$PROJECT_DIR$/test5/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

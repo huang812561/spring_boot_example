@@ -1,0 +1,10 @@
+# JetCache
+JetCache 是由阿里巴巴开源的一款通用缓存访问框架。上篇文章介绍过了 Spring Cache 的基本使用，下面我们再来了解下这款更好用的 JetCache。
+
+
+目前支持的缓存系统包括以下4个：
+
+- Caffeine（基于本地内存）
+- LinkedHashMap（基于本地内存，JetCache自己实现的简易LRU缓存）
+- Alibaba Tair（相关实现未在Github开源，在阿里内部Gitlab上可以找到）
+- Redis
